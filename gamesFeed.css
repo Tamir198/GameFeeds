@@ -1,58 +1,44 @@
-h1{
-	color: red;
-}
 *{
 	margin:0;
 }
-body{
+#main{
 	height: 100vh;
 	width: 100vw;
+	background-color: gray
 }
-header , footer{
+header, footer{
 	text-align: center;
-	height: 10vh;
-	width: 100vw;
-	background-color: orange;
-	position:absolute;
+    background: orange;
+    height: 10%;
+    width: 100%;
+}
+header,footer{
+    text-align: center;
 }
 footer{
-	bottom:0;
+    position: absolute;
+    bottom: 0;
 }
-section{
-	height: 80vh;
-	width: 100vw;
-	background-color: blue;
-}
-aside,#main{
+aside,section{
+    height:80%;
     display: inline-block;
-    float: left;
+    float: right;
 }
 aside{
-	height:100vh;
-	width:15vw;
-	background-color:red;
-	position:inline-block;
+    width: 20%;
+    background: red;
+	overflow-y: scroll;
 }
-
-#main{
+section{
+    width: 80%;
+    background: blue;
+}
+aside>p{
+	color:blue;
+    font-size: 24px;	
+	margin-bottom: 1.5px;
 	background-color:green;
-	height:100vh;
-	width:85vw; 
+	border: 1.50px solid black;
+	
 }
- 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
