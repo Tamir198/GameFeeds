@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	background: linear-gradient(to top left, green, black);
+}
+h2{
+	color:green;
+	text-align: center;
+}
+#main{
+	height: 100vh;
+	width: 100vw;
+	background-color: gray
+}
+header, footer{
+	text-align: center;
+    height: 10%;
+    width: 100%;
+}
+header,footer{
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
+aside,section{
+    height:80%;
+    display: inline-block;
+    float: right;
+}
+aside{
+    width: 20%;
+    background: red;
+	overflow-y: scroll;
+
+}
+section{
+    width: 80%;
+    background: blue;
+}
+aside>p{
+	color:blue;
+    /*font-size: calc(7px + .5vw);*/
+    font-size:14px;
+	margin-bottom: 1.5px;
+	background-color:green;
+	border: 1.50px solid black;
+}
+article{
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.hots{
+	height: 30%;
+	background-color: red;
+	margin-bottom: 15px;
+}
+.general{
+	height: 60%;
+	background-color: red;
+	margin-bottom: 0px;
+}
+
+#hotsNav>p{
+	height: 30%;
+	background-color: red;
+	margin-bottom: 15px;
+}
+/*allows scroll ability*/
+#generalNav{
+	overflow-y: scroll;
+}
+/*allows scroll ability*/
+#hotsNav{
+	overflow-x: scroll;
+ 	overflow-y: scroll;
+    white-space: nowrap;/*Sequences of whitespace will combine into a single whitespace. elements will never move to the next line , unless i will pit  a <br> tag */
+}
+#generalNav>button{
+	height: 40%;
+	width: 99%;
+	display: block;/*this line and next line - to center my buttons*/
+    margin: 0 auto;
+}
+#hotsNav>button{
+	display: line;
+	height:70%;
+	width: 25%;
+}
+#loginBtn , #registerBtn{
+	float: left;
+	margin-top: 10px;
+	margin-left:15px;
+}
+
+
